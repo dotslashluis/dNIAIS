@@ -34,4 +34,12 @@ That being said, these scripts are meant to be ran manually one by one ( `bash e
 
 As I said, I based these scripts on Altercation's, so the system you end up with is pretty similar.  The following image is a representation on the layout that the scripts create.
 
+
+
+![layout.png](/home/luisc/.config/marktext/images/c87233bec16faa9901019d2eebcaaab0efafab1c.png)
+
+As pictured, this is my preferred layout.  This way I can easily back up and rollback my system with the help of Snapper.
+
+The size of each partition is usually 550 Mb for the EFI, 8 Gb for the swap and the rest of the disk for the LUKS container. 
+
 The main differences between this and Altercation's are that the swap partition is not encrypted and that the subvolume layout is based on [the suggested one in the Snapper article](https://wiki.archlinux.org/index.php/Snapper#Suggested_filesystem_layout).
