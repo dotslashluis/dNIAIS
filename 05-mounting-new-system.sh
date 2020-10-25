@@ -9,4 +9,5 @@ mount -t btrfs -o subvol=@snapshots,$o_btrfs LABEL=system /mnt/.snapshots
 mount -t btrfs -o subvol=@log,$o_btrfs LABEL=system /mnt/var/log
 mount -o $o LABEL=EFI /mnt/boot
 
-echo "NOW LEST GET SOEM BRAED"
+echo "The following btrfs subvolumes were mounted"
+mount | grep --color=always btrfs

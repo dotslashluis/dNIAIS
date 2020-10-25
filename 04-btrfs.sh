@@ -1,12 +1,15 @@
 #!/bin/env bash
-# variables to type less later
+
+# mount the system temporarily to create the subvolumes.
 mount -t btrfs LABEL=system /mnt
 
-# snapper hierarchy
+# creating the subvolumes
 btrfs subvolume create /mnt/@
 btrfs subvolume create /mnt/@home
 btrfs subvolume create /mnt/@snapshots
 btrfs subvolume create /mnt/@log
 
-echo "Remember to check /mnt to see if everything went k"
-echo "If all is k then umount"
+echo "The resulting subvolumes were created"
+ls --color --1 /mnt
+
+
