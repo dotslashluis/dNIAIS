@@ -20,7 +20,7 @@ Altercation did a way better job than I could ever do explaining what is going o
 
 ## Why?
 
-I tend to hop between distributions because I like to test new features and experiment with them.  I usually come back to Arch since it's the easiest *advanced* distribution that I can customize to my liking in most ways.
+I tend to hop between distributions because I like to test new features and experiment with them.  I usually come back to Arch since it's the easiest minimalist distribution to install.
 
 By creating this repository I can simply install git on the Arch ISO, clone the repository and then run the scripts in order.
 
@@ -28,7 +28,7 @@ By creating this repository I can simply install git on the Arch ISO, clone the 
 
 I'm a lazy bastard that finds it annoying to maintain scripts that are 300 lines long if the script is used for a trivial task and does not contribute anything to the world.  Therefore I didn't bother to add any interactivity to them since it will just make them bloated, slow and, most importantly, be a waste of my time.
 
-That being said, these scripts are meant to be ran manually one by one ( `bash example.sh`).   **Do not** run them in batch since I **did not** create a system to handle errors and if any part of the script fails it will probably just continue on and damage your system.
+That being said, these scripts are meant to be ran manually one by one ( `bash example.sh`).   **Do not** run them in batch since I **did not** create a system to handle errors and if any part of the script fails it will probably just continue with the rest and damage your system.
 
 ## Okay, then what do I end up with if I run these scripts?
 
